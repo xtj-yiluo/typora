@@ -1,0 +1,8 @@
+git cherry-pick --abort
+
+netstat   -ano|findstr  8080 
+//说明：查看占用8080端口的进程
+
+taskkill  /pid  15132 /f 
+
+alt+F8 eval 快捷键
