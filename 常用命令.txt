@@ -6,3 +6,10 @@ netstat   -ano|findstr  8080
 taskkill  /pid  15132 /f 
 
 alt+F8 eval 快捷键
+
+
+git config --global --unset http.proxy
+
+git config --global http.sslBackend "openssl" 
+
+git config --global --unset https.proxy
